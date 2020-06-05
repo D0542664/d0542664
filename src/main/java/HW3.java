@@ -1,5 +1,3 @@
-package com.example;
-//import java.util.Scanner;
 
 public class HW3 {
   //以1:1:1.414能判為直角三角形為定的誤差
