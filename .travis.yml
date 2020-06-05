@@ -9,4 +9,5 @@ install:
         - gradle assemble
 
 script:
-        - gradle test
+        #- gradle test
+        -gradle sonarqube -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN
