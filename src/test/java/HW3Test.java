@@ -73,7 +73,7 @@ public class HW3Test {
   @Test(expected = Exception.class)
   public void testWithExceprion2() throws Exception {
     //throw new WrongSideException("");
-    assertEquals("", triangleTest.checkTriangle(1,1,2));
+    assertEquals("", triangleTest.checkTriangle(-1,1,2));
     assertEquals("", triangleTest.checkTriangle(1,2,1));
     assertEquals("", triangleTest.checkTriangle(2,1,1));
   }

@@ -4,24 +4,6 @@ public class HW3 {
   private static final double DEFAULT_ERROR = 0.001;
   
   /**
-   * main.
- * @throws WrongSideException 
-   * 
-   */
-  
-  /*public static void main(String[] args) throws Exception {
-    Scanner scanner = new Scanner(System.in);
-    final double a = scanner.nextDouble();
-    final double b = scanner.nextDouble();
-    final double c = scanner.nextDouble();
-    scanner.close();
-    
-    HW3 check = new HW3();
-    String whichTriangle = check.checkTriangle(a,b,c);
-    System.out.print(whichTriangle);
-  }*/
-  
-  /**
    * 判斷是何種三角形.
  * @throws WrongSideException 
    * 
